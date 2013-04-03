@@ -1,5 +1,9 @@
 HNSC
+<<<<<<< HEAD
 ======
+=======
+====
+>>>>>>> 544aed26dc7dad927056149249d938eae17774ab
 
 Ejemplo de validacion y juego del gato (X-0)
 
@@ -19,4 +23,8 @@ Email, la consabida validacion de [usuario][@][servidor][.][dominio]
 
 Telefono que alberque al menos 8 digitos numericos
 
+<<<<<<< HEAD
 Password, que sea mayor que 6 caracteres cualesquiera.
+=======
+Password, que sea mayor que 6 caracteres cualesquiera.
+>>>>>>> 544aed26dc7dad927056149249d938eae17774ab
