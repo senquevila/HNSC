@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Ejemplo de validacion</title>
+<link rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/valid-func.js"></script>
+</head>
+<body>
+<div id="contenedor">
+	<div id="titulo">
+		<h1>Prueba 2</h1>
+	</div>
+	<div id="formulario">
+		<form action="post-valid.html" method="post">
+			<fieldset>
+			<legend>Datos personales</legend>
+			<ul>
+				<li>
+					<label for="nombre">Nombres:</label>
+					<input type="text" id="nombre" name="nombre" />
+				</li>
+				<li id="m-nombre" class="msg"></li>
+				<li>
+					<label for="apellido">Apellidos:</label> 
+					<input type="text" id="apellido" name="apellido" />
+				</li>
+				<li id="m-apellido" class="msg"></li>
+				<li>	
+					<label for="password">Contraseña:</label> 
+					<input type="password" id="password" name="password" />
+				</li>
+				<li id="m-password" class="msg"></li>
+				<li>
+					<label for="email">Correo electrónico:</label>
+					<input type="text" id="email" name="email" /> 
+				</li>
+				<li id="m-email" class="msg"></li>
+				<li>
+					<label for="telefono">Teléfono:</label> 
+					<input type="text" id="telefono" name="telefono" />
+				</li>
+				<li id="m-telefono" class="msg"></li>
+				<li><hr/></li>
+				<li>
+					<input id="tt" type="submit" value="Enviar" />
+					<a href="index.html">Volver</a>
+				</li>
+			</ul>
+			</fieldset>
+		</form>
+	</div>
+</div>
+</body>
+</html>
