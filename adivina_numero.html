@@ -64,7 +64,7 @@ p.a {
 			//64
 			data[6] = new Array(64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127)			
 			
-			document.write("<form name='game' method='post' action='juego.html'>")
+			document.write("<form name='game' method='post' action='adivina_numero.html'>")
 			for(var i=6; i>=0; i--){				
 				document.write("<div id='t" + i + "' align='center'><table cellpadding='12'><tr>")
 				for(var j=0; j<64; j++){
@@ -83,7 +83,7 @@ p.a {
 					document.write("<a href='#t" + counter + "'>Siguiente</a>")
 				}
 				if(i == 0){
-					document.write("<a href='juego.html#t6' onclick='sumar()'>Adivinar</a>")
+					document.write("<a href='adivina_numero.html#t0' onclick='sumar()'>Adivinar</a>")
 				}
 				document.write("</p>")
 				document.write("<p><hr width='50%'><br><br></p>")		
@@ -103,7 +103,7 @@ p.a {
 			if(game.choice6.checked == true) suma = suma + 64
 			alert("El numero es: "  + suma)
 			clear()
-			location='juego.html#t6'
+			location='adivina_numero.html#t0'
 		}	
 		
 		function clear(){
